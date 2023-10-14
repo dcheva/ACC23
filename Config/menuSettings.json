@@ -2527,8 +2527,8 @@
 					"positionOnGrid": 1,
 					"timeMultiplier": 1,
 					"trackName": "zolder",
-					"skillMultiplier": 90,
-					"aggroMultiplier": 90,
+					"skillMultiplier": 85,
+					"aggroMultiplier": 85,
 					"p1_TimeOfDay": 14,
 					"p2_Enabled": false,
 					"p2_TimeOfDay": 14,
@@ -2550,7 +2550,7 @@
 				{
 					"carName": "F_6_1",
 					"driverName": "Pierburg_V",
-					"opponentCount": 0,
+					"opponentCount": 24,
 					"carGroups":
 					{
 					},
@@ -2561,9 +2561,9 @@
 					"raceLength": 0,
 					"positionOnGrid": 1,
 					"timeMultiplier": 1,
-					"trackName": "nurburgring",
-					"skillMultiplier": 100,
-					"aggroMultiplier": 100,
+					"trackName": "zolder",
+					"skillMultiplier": 90,
+					"aggroMultiplier": 90,
 					"p1_TimeOfDay": 14,
 					"p2_Enabled": false,
 					"p2_TimeOfDay": 14,
@@ -2585,7 +2585,7 @@
 				{
 					"carName": "F_6_1",
 					"driverName": "Pierburg_V",
-					"opponentCount": 0,
+					"opponentCount": 24,
 					"carGroups":
 					{
 					},
@@ -2596,9 +2596,9 @@
 					"raceLength": 600,
 					"positionOnGrid": 1,
 					"timeMultiplier": 1,
-					"trackName": "nurburgring",
-					"skillMultiplier": 80,
-					"aggroMultiplier": 80,
+					"trackName": "zolder",
+					"skillMultiplier": 90,
+					"aggroMultiplier": 90,
 					"p1_TimeOfDay": 14,
 					"p2_Enabled": false,
 					"p2_TimeOfDay": 14,
@@ -2620,7 +2620,7 @@
 				{
 					"carName": "F_6_1",
 					"driverName": "Pierburg_V",
-					"opponentCount": 16,
+					"opponentCount": 12,
 					"carGroups":
 					{
 					},
@@ -2629,11 +2629,11 @@
 					"practiceLength": 600,
 					"qualifyLength": 0,
 					"raceLength": 600,
-					"positionOnGrid": 8,
+					"positionOnGrid": 1,
 					"timeMultiplier": 1,
-					"trackName": "nurburgring",
-					"skillMultiplier": 80,
-					"aggroMultiplier": 80,
+					"trackName": "zolder",
+					"skillMultiplier": 90,
+					"aggroMultiplier": 90,
 					"p1_TimeOfDay": 14,
 					"p2_Enabled": false,
 					"p2_TimeOfDay": 14,
@@ -2655,20 +2655,20 @@
 				{
 					"carName": "F_6_1",
 					"driverName": "Pierburg_V",
-					"opponentCount": 16,
+					"opponentCount": 12,
 					"carGroups":
 					{
 					},
 					"raceEventType": "Free",
 					"timeOfDay": 14,
-					"practiceLength": 300,
-					"qualifyLength": 300,
-					"raceLength": 300,
-					"positionOnGrid": 5,
+					"practiceLength": 0,
+					"qualifyLength": 600,
+					"raceLength": 600,
+					"positionOnGrid": -1,
 					"timeMultiplier": 1,
-					"trackName": "monza",
-					"skillMultiplier": 100,
-					"aggroMultiplier": 100,
+					"trackName": "zolder",
+					"skillMultiplier": 90,
+					"aggroMultiplier": 90,
 					"p1_TimeOfDay": 14,
 					"p2_Enabled": false,
 					"p2_TimeOfDay": 14,
@@ -2690,7 +2690,7 @@
 				{
 					"carName": "F_6_1",
 					"driverName": "Pierburg_V",
-					"opponentCount": 0,
+					"opponentCount": 24,
 					"carGroups":
 					{
 					},
@@ -2701,9 +2701,9 @@
 					"raceLength": 600,
 					"positionOnGrid": 1,
 					"timeMultiplier": 1,
-					"trackName": "nurburgring",
-					"skillMultiplier": 100,
-					"aggroMultiplier": 100,
+					"trackName": "zolder",
+					"skillMultiplier": 90,
+					"aggroMultiplier": 90,
 					"p1_TimeOfDay": 14,
 					"p2_Enabled": false,
 					"p2_TimeOfDay": 14,
@@ -3121,8 +3121,8 @@
 		"Free": "zolder"
 	},
 	"globalOpponentCount": 24,
-	"globalOpponentSkill": 90,
-	"globalOpponentAggro": 90,
+	"globalOpponentSkill": 85,
+	"globalOpponentAggro": 85,
 	"globalPositionOnGrid": 1,
 	"globalCarGroupRatios":
 	{
