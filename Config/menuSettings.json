@@ -3305,7 +3305,7 @@
 	{
 		"sortMode": 0,
 		"accessibleOnly": true,
-		"pingLimit": 0
+		"pingLimit": 50
 	},
 	"carsPreloadMode": 2,
 	"carsPreloadLimitMB": 5000
