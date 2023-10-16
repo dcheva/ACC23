@@ -2526,7 +2526,7 @@
 					"raceLength": -1,
 					"positionOnGrid": 1,
 					"timeMultiplier": 1,
-					"trackName": "zolder",
+					"trackName": "laguna_seca",
 					"skillMultiplier": 85,
 					"aggroMultiplier": 85,
 					"p1_TimeOfDay": 14,
@@ -3118,7 +3118,7 @@
 	"globalSeasonTrackName":
 	{
 		"BP_2019": "zandvoort",
-		"Free": "zolder"
+		"Free": "laguna_seca"
 	},
 	"globalOpponentCount": 24,
 	"globalOpponentSkill": 85,
