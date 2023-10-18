@@ -3303,7 +3303,7 @@
 	"mPServerListCarGroupFilter": "ANY",
 	"mpServerListFilter":
 	{
-		"sortMode": 0,
+		"sortMode": 1,
 		"accessibleOnly": true,
 		"pingLimit": 50
 	},
