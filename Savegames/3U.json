@@ -2,13 +2,13 @@
 	"cars": [
 		{
 			"carId": 0,
-			"driverIndex": 0,
+			"driverIndex": 1,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 613975,
+				"startTimeMs": 2373127.5,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -89,10 +89,10 @@
 				},
 				"nextPitstopAtSessionTimeMs": 900000,
 				"mandatoryPitstopNumber": -1,
-				"fuelPerLap": 2.5,
-				"fuelPerMinute": 1.6720542907714844,
+				"fuelPerLap": 2.5268096923828125,
+				"fuelPerMinute": 1.6899852752685547,
 				"lapTime": 89710,
-				"rainPitRandomizer": -0.0025519579648971558,
+				"rainPitRandomizer": -0.017825860530138016,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -104,7 +104,7 @@
 			"pitstopMFD":
 			{
 				"activePitStrategy": 0,
-				"tyreSet": 2,
+				"tyreSet": 4,
 				"isDisabled": false,
 				"fuelToAdd": 0,
 				"fuelLimits":
@@ -119,22 +119,22 @@
 					"Wet"
 				],
 				"tyreToChange": [ true, true, true, true ],
-				"tyrePressures": [ 25.399999618530273, 25.600000381469727, 25.200000762939453, 25.399999618530273 ],
+				"tyrePressures": [ 21.30000114440918, 22.399999618530273, 22, 22.600000381469727 ],
 				"tyrePressureLimits":
 				{
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 0,
-				"newDriverNameToDisplay": "Dmytro Cheva",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Dee Covan",
 				"driversNames": [
 					"Dmytro Cheva",
 					"Dee Covan"
 				],
-				"driversStintTotalTimeLeft": [ 2281, 2700 ],
-				"hasDriversDoneAStint": [ true, false ],
-				"currentDriverIndex": 0,
+				"driversStintTotalTimeLeft": [ 2700, 2070 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -142,8 +142,8 @@
 				"mustServePenalty": false,
 				"servePenalty": false,
 				"changeBrakeDiscs": false,
-				"frontBrakeCompound": 1,
-				"rearBrakeCompound": 1,
+				"frontBrakeCompound": 0,
+				"rearBrakeCompound": 0,
 				"isValidForMandatory": false,
 				"isDriverSwapRequired": true,
 				"isTyreChangeRequired": true,
@@ -157,50 +157,50 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 11.621132850646973,
-				"totalFuelUsedInSession": 2.1218690872192383,
-				"fuelPerSingleLap": 2.1218690872192383,
-				"fuelPerKm": 0.53593611717224121,
-				"fuelLapCount": 1
+				"startingFuelOnLastLap": 14.642297744750977,
+				"totalFuelUsedInSession": 7.6000595092773438,
+				"fuelPerSingleLap": 2.5333530902862549,
+				"fuelPerKm": 0.63986766338348389,
+				"fuelLapCount": 3
 			},
 			"tyreSets": [
 				{
 					"tyreSet": 0,
 					"wearStatus": [
 						{
-							"treadMM": [ 2.9824931621551514, 2.9837040901184082, 2.9849541187286377 ],
-							"grain": 0.80781751871109009,
-							"blister": 0,
-							"marblesLevel": 0.0041616917587816715,
+							"treadMM": [ 2.9678246974945068, 2.9662065505981445, 2.964486837387085 ],
+							"grain": 1.1404751539230347,
+							"blister": 0.00057874195044860244,
+							"marblesLevel": 0.0030290340073406696,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 2.9918899536132813, 2.9929647445678711, 2.9940476417541504 ],
-							"grain": 0.71240746974945068,
+							"treadMM": [ 2.9691023826599121, 2.9721567630767822, 2.97536301612854 ],
+							"grain": 1.0443642139434814,
 							"blister": 0,
-							"marblesLevel": 0,
+							"marblesLevel": 0.0093501349911093712,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 2.9742026329040527, 2.9766845703125, 2.9791462421417236 ],
-							"grain": 0.76491880416870117,
+							"treadMM": [ 2.9531817436218262, 2.9509239196777344, 2.9491136074066162 ],
+							"grain": 0.97354483604431152,
 							"blister": 0,
-							"marblesLevel": 0.003072790103033185,
+							"marblesLevel": 0.004535116720944643,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 2.9846870899200439, 2.9880435466766357, 2.9912402629852295 ],
-							"grain": 0.73184573650360107,
+							"treadMM": [ 2.9519293308258057, 2.9587948322296143, 2.965320348739624 ],
+							"grain": 1.0104458332061768,
 							"blister": 0,
-							"marblesLevel": 9.9242999567650259e-05,
+							"marblesLevel": 0.0095245698466897011,
 							"flatSpot": 0,
 							"isCriticalState": false
 						}
 					],
-					"state": "None"
+					"state": "Light"
 				},
 				{
 					"tyreSet": 1,
@@ -244,77 +244,77 @@
 					"tyreSet": 2,
 					"wearStatus": [
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
-							"blister": 0,
-							"marblesLevel": 0,
+							"treadMM": [ 2.9112548828125, 2.9022336006164551, 2.893160343170166 ],
+							"grain": 0.73296147584915161,
+							"blister": 0.8063359260559082,
+							"marblesLevel": 0.001778776291757822,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
-							"blister": 0,
-							"marblesLevel": 0,
+							"treadMM": [ 2.9134774208068848, 2.9234495162963867, 2.9331979751586914 ],
+							"grain": 0.8646729588508606,
+							"blister": 0.2356763631105423,
+							"marblesLevel": 0.0027756746858358383,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
+							"treadMM": [ 2.9015111923217773, 2.8876805305480957, 2.8769505023956299 ],
 							"grain": 0,
-							"blister": 0,
-							"marblesLevel": 0,
+							"blister": 0.078756853938102722,
+							"marblesLevel": 0.0019600791856646538,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
+							"treadMM": [ 2.8843278884887695, 2.9009006023406982, 2.9183273315429688 ],
 							"grain": 0,
 							"blister": 0,
-							"marblesLevel": 0,
+							"marblesLevel": 0.002973110880702734,
 							"flatSpot": 0,
 							"isCriticalState": false
 						}
 					],
-					"state": "None"
+					"state": "Light"
 				},
 				{
 					"tyreSet": 3,
 					"wearStatus": [
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
-							"blister": 0,
+							"treadMM": [ 2.8700385093688965, 2.857337474822998, 2.84464430809021 ],
+							"grain": 2.2327642440795898,
+							"blister": 1.5492879152297974,
 							"marblesLevel": 0,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
-							"blister": 0,
+							"treadMM": [ 2.8687393665313721, 2.8834872245788574, 2.8979859352111816 ],
+							"grain": 2.4270579814910889,
+							"blister": 0.66985005140304565,
 							"marblesLevel": 0,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
-							"blister": 0,
+							"treadMM": [ 2.8306646347045898, 2.8066892623901367, 2.7871556282043457 ],
+							"grain": 0.88273721933364868,
+							"blister": 0.47741112112998962,
 							"marblesLevel": 0,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
-							"blister": 0,
+							"treadMM": [ 2.8006117343902588, 2.8272662162780762, 2.8555657863616943 ],
+							"grain": 0.90724486112594604,
+							"blister": 0.1226825937628746,
 							"marblesLevel": 0,
 							"flatSpot": 0,
 							"isCriticalState": false
 						}
 					],
-					"state": "None"
+					"state": "Light"
 				},
 				{
 					"tyreSet": 4,
@@ -360,115 +360,115 @@
 					"tyreSet": 0,
 					"wearStatus": [
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
-							"blister": 0,
-							"marblesLevel": 0,
+							"treadMM": [ 2.9678246974945068, 2.9662065505981445, 2.964486837387085 ],
+							"grain": 1.1404751539230347,
+							"blister": 0.00057874195044860244,
+							"marblesLevel": 0.0030290340073406696,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
+							"treadMM": [ 2.9691023826599121, 2.9721567630767822, 2.97536301612854 ],
+							"grain": 1.0443642139434814,
 							"blister": 0,
-							"marblesLevel": 0,
+							"marblesLevel": 0.0093501349911093712,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
+							"treadMM": [ 2.9531817436218262, 2.9509239196777344, 2.9491136074066162 ],
+							"grain": 0.97354483604431152,
 							"blister": 0,
-							"marblesLevel": 0,
+							"marblesLevel": 0.004535116720944643,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
+							"treadMM": [ 2.9519293308258057, 2.9587948322296143, 2.965320348739624 ],
+							"grain": 1.0104458332061768,
 							"blister": 0,
-							"marblesLevel": 0,
+							"marblesLevel": 0.0095245698466897011,
 							"flatSpot": 0,
 							"isCriticalState": false
 						}
 					],
-					"state": "None"
+					"state": "Light"
 				},
 				{
 					"tyreSet": 1,
 					"wearStatus": [
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
+							"treadMM": [ 2.9302186965942383, 2.9283902645111084, 2.9265637397766113 ],
+							"grain": 0.41491615772247314,
 							"blister": 0,
 							"marblesLevel": 0,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
+							"treadMM": [ 2.940662145614624, 2.9456632137298584, 2.9505918025970459 ],
+							"grain": 0.47186967730522156,
 							"blister": 0,
 							"marblesLevel": 0,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
+							"treadMM": [ 2.8995234966278076, 2.8969478607177734, 2.8921716213226318 ],
+							"grain": 0.73964333534240723,
 							"blister": 0,
 							"marblesLevel": 0,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
+							"treadMM": [ 2.9007503986358643, 2.912916898727417, 2.9222877025604248 ],
+							"grain": 0.7390710711479187,
 							"blister": 0,
 							"marblesLevel": 0,
 							"flatSpot": 0,
 							"isCriticalState": false
 						}
 					],
-					"state": "None"
+					"state": "Light"
 				},
 				{
 					"tyreSet": 2,
 					"wearStatus": [
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
-							"blister": 0,
-							"marblesLevel": 0,
+							"treadMM": [ 2.9112548828125, 2.9022336006164551, 2.893160343170166 ],
+							"grain": 0.73296147584915161,
+							"blister": 0.8063359260559082,
+							"marblesLevel": 0.001778776291757822,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
-							"grain": 0,
-							"blister": 0,
-							"marblesLevel": 0,
+							"treadMM": [ 2.9134774208068848, 2.9234495162963867, 2.9331979751586914 ],
+							"grain": 0.8646729588508606,
+							"blister": 0.2356763631105423,
+							"marblesLevel": 0.0027756746858358383,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
+							"treadMM": [ 2.9015111923217773, 2.8876805305480957, 2.8769505023956299 ],
 							"grain": 0,
-							"blister": 0,
-							"marblesLevel": 0,
+							"blister": 0.078756853938102722,
+							"marblesLevel": 0.0019600791856646538,
 							"flatSpot": 0,
 							"isCriticalState": false
 						},
 						{
-							"treadMM": [ 3, 3, 3 ],
+							"treadMM": [ 2.8843278884887695, 2.9009006023406982, 2.9183273315429688 ],
 							"grain": 0,
 							"blister": 0,
-							"marblesLevel": 0,
+							"marblesLevel": 0.002973110880702734,
 							"flatSpot": 0,
 							"isCriticalState": false
 						}
 					],
-					"state": "None"
+					"state": "Light"
 				},
 				{
 					"tyreSet": 3,
@@ -547,15 +547,15 @@
 					"state": "None"
 				}
 			],
-			"currentTyreSet": 1,
+			"currentTyreSet": 3,
 			"currentTyreCompound": 0,
-			"currentFrontBrakeCompound": 1,
-			"currentRearBrakeCompound": 1,
+			"currentFrontBrakeCompound": 0,
+			"currentRearBrakeCompound": 0,
 			"lastSplitNpos": 0,
-			"lapCount": 4,
+			"lapCount": 6,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 1965,
-			"averageRelativeSpeed": 0.94556164741516113,
+			"filteredTimeAhead": 408,
+			"averageRelativeSpeed": 0.96887892484664917,
 			"carSetup":
 			{
 				"carName": "mercedes_amg_gt3",
@@ -564,56 +564,56 @@
 					"tyres":
 					{
 						"tyreCompound": 0,
-						"tyrePressure": [ 51, 53, 49, 51 ]
+						"tyrePressure": [ 10, 21, 17, 23 ]
 					},
 					"alignment":
 					{
-						"camber": [ 36, 36, 18, 18 ],
-						"toe": [ 30, 30, 45, 45 ],
-						"staticCamber": [ -2.2808372974395752, -2.2795262336730957, -2.9047541618347168, -2.9034080505371094 ],
-						"toeOutLinear": [ 0.00010687187022995204, 0.00010688250767998397, 0.00014066039875615388, 0.00014068452583160251 ],
-						"casterLF": 34,
-						"casterRF": 34,
-						"steerRatio": 3
+						"camber": [ 25, 25, 6, 6 ],
+						"toe": [ 20, 20, 66, 66 ],
+						"staticCamber": [ -3.0308961868286133, -3.0271191596984863, -4.0184283256530762, -4.012941837310791 ],
+						"toeOutLinear": [ 5.9048135881312191e-05, 5.9062127547804266e-05, 0.00043239074875600636, 0.00043214281322434545 ],
+						"casterLF": 25,
+						"casterRF": 25,
+						"steerRatio": 2
 					},
 					"electronics":
 					{
 						"tC1": 6,
 						"tC2": 0,
-						"abs": 6,
-						"eCUMap": 1,
+						"abs": 5,
+						"eCUMap": 0,
 						"fuelMix": 0,
 						"telemetryLaps": 10
 					},
 					"strategy":
 					{
-						"fuel": 18,
+						"fuel": 28,
 						"nPitStops": 1,
-						"tyreSet": 1,
-						"frontBrakePadCompound": 1,
-						"rearBrakePadCompound": 1,
+						"tyreSet": 3,
+						"frontBrakePadCompound": 0,
+						"rearBrakePadCompound": 0,
 						"pitStrategy": [
 							{
 								"fuelToAdd": 0,
 								"tyres":
 								{
 									"tyreCompound": 0,
-									"tyrePressure": [ 51, 53, 49, 51 ]
+									"tyrePressure": [ 10, 21, 17, 23 ]
 								},
-								"tyreSet": 2,
-								"frontBrakePadCompound": 1,
-								"rearBrakePadCompound": 1
+								"tyreSet": 0,
+								"frontBrakePadCompound": 0,
+								"rearBrakePadCompound": 0
 							},
 							{
 								"fuelToAdd": 0,
 								"tyres":
 								{
 									"tyreCompound": 0,
-									"tyrePressure": [ 51, 53, 49, 51 ]
+									"tyrePressure": [ 10, 21, 17, 23 ]
 								},
 								"tyreSet": 2,
-								"frontBrakePadCompound": 1,
-								"rearBrakePadCompound": 1
+								"frontBrakePadCompound": 0,
+								"rearBrakePadCompound": 0
 							}
 						],
 						"fuelPerLap": 2.5
@@ -623,33 +623,33 @@
 				{
 					"mechanicalBalance":
 					{
-						"aRBFront": 4,
-						"aRBRear": 6,
-						"wheelRate": [ 0, 0, 3, 3 ],
-						"bumpStopRateUp": [ 4, 4, 3, 3 ],
+						"aRBFront": 1,
+						"aRBRear": 5,
+						"wheelRate": [ 1, 1, 4, 4 ],
+						"bumpStopRateUp": [ 6, 6, 4, 4 ],
 						"bumpStopRateDn": [ 0, 0, 10, 10 ],
-						"bumpStopWindow": [ 25, 25, 50, 50 ],
+						"bumpStopWindow": [ 11, 11, 26, 26 ],
 						"brakeTorque": 20,
-						"brakeBias": 55
+						"brakeBias": 48
 					},
 					"dampers":
 					{
-						"bumpSlow": [ 4, 4, 5, 5 ],
-						"bumpFast": [ 5, 5, 8, 8 ],
-						"reboundSlow": [ 6, 6, 7, 7 ],
-						"reboundFast": [ 6, 6, 6, 6 ]
+						"bumpSlow": [ 4, 4, 3, 3 ],
+						"bumpFast": [ 4, 4, 4, 4 ],
+						"reboundSlow": [ 9, 9, 8, 8 ],
+						"reboundFast": [ 8, 7, 7, 6 ]
 					},
 					"aeroBalance":
 					{
-						"rideHeight": [ 9, 6, 12, 18 ],
-						"rodLength": [ 17.48004150390625, 17.48004150390625, 73.091384887695313, 73.091384887695313 ],
-						"splitter": 3,
-						"rearWing": 6,
-						"brakeDuct": [ 4, 4 ]
+						"rideHeight": [ 2, 6, 3, 18 ],
+						"rodLength": [ 9.8026752471923828, 9.8026752471923828, 62.920818328857422, 62.920818328857422 ],
+						"splitter": 6,
+						"rearWing": 4,
+						"brakeDuct": [ 2, 2 ]
 					},
 					"drivetrain":
 					{
-						"preload": 1
+						"preload": 7
 					}
 				},
 				"trackBopType": 3
@@ -657,13 +657,13 @@
 		},
 		{
 			"carId": 2,
-			"driverIndex": 1,
+			"driverIndex": 0,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 18337,
+				"startTimeMs": 1840019.5,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -747,7 +747,7 @@
 				"fuelPerLap": 2.5,
 				"fuelPerMinute": 1.6720542907714844,
 				"lapTime": 89710,
-				"rainPitRandomizer": -0.0022272411733865738,
+				"rainPitRandomizer": -0.0045796073973178864,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -780,16 +780,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 1,
-				"newDriverNameToDisplay": "Michael Meadows",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Raffaele Marciello",
 				"driversNames": [
 					"Raffaele Marciello",
 					"Michael Meadows"
 				],
-				"driversStintTotalTimeLeft": [ 2700, 2094 ],
-				"hasDriversDoneAStint": [ false, true ],
-				"currentDriverIndex": 1,
+				"driversStintTotalTimeLeft": [ 2135, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -812,10 +812,10 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 14.553444862365723,
-				"totalFuelUsedInSession": 3.8507204055786133,
-				"fuelPerSingleLap": 1.9253602027893066,
-				"fuelPerKm": 0.48630240559577942,
+				"startingFuelOnLastLap": 27.181808471679688,
+				"totalFuelUsedInSession": 3.8726940155029297,
+				"fuelPerSingleLap": 1.9363470077514648,
+				"fuelPerKm": 0.48907741904258728,
 				"fuelLapCount": 2
 			},
 			"tyreSets": [],
@@ -824,11 +824,11 @@
 			"currentTyreCompound": 0,
 			"currentFrontBrakeCompound": 1,
 			"currentRearBrakeCompound": 1,
-			"lastSplitNpos": 0.68000000715255737,
+			"lastSplitNpos": 0.35999998450279236,
 			"lapCount": 5,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 806,
-			"averageRelativeSpeed": 0.93880003690719604,
+			"filteredTimeAhead": 1410,
+			"averageRelativeSpeed": 0.84073120355606079,
 			"carSetup":
 			{
 				"carName": "mercedes_amg_gt3",
@@ -907,13 +907,13 @@
 		},
 		{
 			"carId": 13,
-			"driverIndex": 0,
+			"driverIndex": 1,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 57122.5,
+				"startTimeMs": 1836167,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -997,7 +997,7 @@
 				"fuelPerLap": 2.5,
 				"fuelPerMinute": 1.6720542907714844,
 				"lapTime": 89710,
-				"rainPitRandomizer": -0.0088009275496006012,
+				"rainPitRandomizer": 0.0044245738536119461,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -1030,16 +1030,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 0,
-				"newDriverNameToDisplay": "Jack Manchester",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Nico Bastian",
 				"driversNames": [
 					"Jack Manchester",
 					"Nico Bastian"
 				],
-				"driversStintTotalTimeLeft": [ 2133, 2700 ],
-				"hasDriversDoneAStint": [ true, false ],
-				"currentDriverIndex": 0,
+				"driversStintTotalTimeLeft": [ 2700, 2131 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -1062,10 +1062,10 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 14.705426216125488,
-				"totalFuelUsedInSession": 3.7945489883422852,
-				"fuelPerSingleLap": 1.8972744941711426,
-				"fuelPerKm": 0.47920858860015869,
+				"startingFuelOnLastLap": 27.220363616943359,
+				"totalFuelUsedInSession": 3.8748722076416016,
+				"fuelPerSingleLap": 1.9374361038208008,
+				"fuelPerKm": 0.48935249447822571,
 				"fuelLapCount": 2
 			},
 			"tyreSets": [],
@@ -1077,8 +1077,8 @@
 			"lastSplitNpos": 0.35999998450279236,
 			"lapCount": 5,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 1326,
-			"averageRelativeSpeed": 0.87514799833297729,
+			"filteredTimeAhead": 1165,
+			"averageRelativeSpeed": 0.76349800825119019,
 			"carSetup":
 			{
 				"carName": "mercedes_amg_gt3",
@@ -1157,13 +1157,13 @@
 		},
 		{
 			"carId": 4,
-			"driverIndex": 1,
+			"driverIndex": 0,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 100250.5,
+				"startTimeMs": 1799112,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -1247,7 +1247,7 @@
 				"fuelPerLap": 2.4000000953674316,
 				"fuelPerMinute": 1.6051722764968872,
 				"lapTime": 89710,
-				"rainPitRandomizer": -0.019827874377369881,
+				"rainPitRandomizer": -0.011564683169126511,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -1280,16 +1280,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 1,
-				"newDriverNameToDisplay": "Piti Bhirombhakdi",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Carlo Van Dam",
 				"driversNames": [
 					"Carlo Van Dam",
 					"Piti Bhirombhakdi"
 				],
-				"driversStintTotalTimeLeft": [ 2700, 2183 ],
-				"hasDriversDoneAStint": [ false, true ],
-				"currentDriverIndex": 1,
+				"driversStintTotalTimeLeft": [ 2095, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -1312,10 +1312,10 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 14.013631820678711,
-				"totalFuelUsedInSession": 3.6735744476318359,
-				"fuelPerSingleLap": 1.836787223815918,
-				"fuelPerKm": 0.4639308750629425,
+				"startingFuelOnLastLap": 27.810304641723633,
+				"totalFuelUsedInSession": 3.7367343902587891,
+				"fuelPerSingleLap": 1.8683671951293945,
+				"fuelPerKm": 0.47190725803375244,
 				"fuelLapCount": 2
 			},
 			"tyreSets": [],
@@ -1324,11 +1324,11 @@
 			"currentTyreCompound": 0,
 			"currentFrontBrakeCompound": 1,
 			"currentRearBrakeCompound": 1,
-			"lastSplitNpos": 0,
+			"lastSplitNpos": 0.68000000715255737,
 			"lapCount": 5,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 1692,
-			"averageRelativeSpeed": 0.84637665748596191,
+			"filteredTimeAhead": 3425,
+			"averageRelativeSpeed": 0.90677005052566528,
 			"carSetup":
 			{
 				"carName": "ferrari_488_gt3",
@@ -1407,13 +1407,13 @@
 		},
 		{
 			"carId": 12,
-			"driverIndex": 0,
+			"driverIndex": 1,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 27862.5,
+				"startTimeMs": 1826408,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -1497,7 +1497,7 @@
 				"fuelPerLap": 2.4000000953674316,
 				"fuelPerMinute": 1.6051722764968872,
 				"lapTime": 89710,
-				"rainPitRandomizer": 0.015701774507761002,
+				"rainPitRandomizer": -0.00075014494359493256,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -1530,16 +1530,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 0,
-				"newDriverNameToDisplay": "Rinat Salikhov",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "David Perel",
 				"driversNames": [
 					"Rinat Salikhov",
 					"David Perel"
 				],
-				"driversStintTotalTimeLeft": [ 2104, 2700 ],
-				"hasDriversDoneAStint": [ true, false ],
-				"currentDriverIndex": 0,
+				"driversStintTotalTimeLeft": [ 2700, 2122 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -1562,10 +1562,10 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 14.029228210449219,
-				"totalFuelUsedInSession": 3.7114295959472656,
-				"fuelPerSingleLap": 1.8557147979736328,
-				"fuelPerKm": 0.46871155500411987,
+				"startingFuelOnLastLap": 25.971651077270508,
+				"totalFuelUsedInSession": 3.7413215637207031,
+				"fuelPerSingleLap": 1.8706607818603516,
+				"fuelPerKm": 0.47248655557632446,
 				"fuelLapCount": 2
 			},
 			"tyreSets": [],
@@ -1574,11 +1574,11 @@
 			"currentTyreCompound": 0,
 			"currentFrontBrakeCompound": 1,
 			"currentRearBrakeCompound": 1,
-			"lastSplitNpos": 0.68000000715255737,
+			"lastSplitNpos": 0.35999998450279236,
 			"lapCount": 5,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 2750,
-			"averageRelativeSpeed": 0.92586749792098999,
+			"filteredTimeAhead": 1232,
+			"averageRelativeSpeed": 0.86621981859207153,
 			"carSetup":
 			{
 				"carName": "ferrari_488_gt3",
@@ -1657,13 +1657,13 @@
 		},
 		{
 			"carId": 1,
-			"driverIndex": 0,
+			"driverIndex": 1,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 29133.5,
+				"startTimeMs": 1813588,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -1747,7 +1747,7 @@
 				"fuelPerLap": 2.4500000476837158,
 				"fuelPerMinute": 1.6386133432388306,
 				"lapTime": 89710,
-				"rainPitRandomizer": 0.018206734210252762,
+				"rainPitRandomizer": 0.011247292160987854,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -1780,16 +1780,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 0,
-				"newDriverNameToDisplay": "Dries Vanthoor",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Will Stevens",
 				"driversNames": [
 					"Dries Vanthoor",
 					"Will Stevens"
 				],
-				"driversStintTotalTimeLeft": [ 2106, 2700 ],
-				"hasDriversDoneAStint": [ true, false ],
-				"currentDriverIndex": 0,
+				"driversStintTotalTimeLeft": [ 2700, 2110 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -1812,10 +1812,10 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 14.116321563720703,
-				"totalFuelUsedInSession": 3.8728580474853516,
-				"fuelPerSingleLap": 1.9364290237426758,
-				"fuelPerKm": 0.48909813165664673,
+				"startingFuelOnLastLap": 25.884201049804688,
+				"totalFuelUsedInSession": 3.7902545928955078,
+				"fuelPerSingleLap": 1.8951272964477539,
+				"fuelPerKm": 0.47866624593734741,
 				"fuelLapCount": 2
 			},
 			"tyreSets": [],
@@ -1827,8 +1827,8 @@
 			"lastSplitNpos": 0.68000000715255737,
 			"lapCount": 5,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 1313,
-			"averageRelativeSpeed": 0.86995798349380493,
+			"filteredTimeAhead": 2425,
+			"averageRelativeSpeed": 0.82674378156661987,
 			"carSetup":
 			{
 				"carName": "audi_r8_lms",
@@ -1907,13 +1907,13 @@
 		},
 		{
 			"carId": 5,
-			"driverIndex": 1,
+			"driverIndex": 0,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 18163.5,
+				"startTimeMs": 1826314,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -1997,7 +1997,7 @@
 				"fuelPerLap": 2.4500000476837158,
 				"fuelPerMinute": 1.6386133432388306,
 				"lapTime": 89710,
-				"rainPitRandomizer": 0.011562243103981018,
+				"rainPitRandomizer": 0.0060274060815572739,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -2030,16 +2030,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 1,
-				"newDriverNameToDisplay": "Steijn Schothorst",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Kelvin van der Linde",
 				"driversNames": [
 					"Kelvin van der Linde",
 					"Steijn Schothorst"
 				],
-				"driversStintTotalTimeLeft": [ 2700, 2099 ],
-				"hasDriversDoneAStint": [ false, true ],
-				"currentDriverIndex": 1,
+				"driversStintTotalTimeLeft": [ 2127, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -2062,10 +2062,10 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 13.850561141967773,
-				"totalFuelUsedInSession": 3.9454803466796875,
-				"fuelPerSingleLap": 1.9727401733398438,
-				"fuelPerKm": 0.49826949834823608,
+				"startingFuelOnLastLap": 25.730194091796875,
+				"totalFuelUsedInSession": 3.9091987609863281,
+				"fuelPerSingleLap": 1.9545993804931641,
+				"fuelPerKm": 0.49368757009506226,
 				"fuelLapCount": 2
 			},
 			"tyreSets": [],
@@ -2074,11 +2074,11 @@
 			"currentTyreCompound": 0,
 			"currentFrontBrakeCompound": 1,
 			"currentRearBrakeCompound": 1,
-			"lastSplitNpos": 0.68000000715255737,
+			"lastSplitNpos": 0.35999998450279236,
 			"lapCount": 5,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 3353,
-			"averageRelativeSpeed": 0.93110144138336182,
+			"filteredTimeAhead": 4282,
+			"averageRelativeSpeed": 0.88357007503509521,
 			"carSetup":
 			{
 				"carName": "audi_r8_lms",
@@ -2157,13 +2157,13 @@
 		},
 		{
 			"carId": 7,
-			"driverIndex": 0,
+			"driverIndex": 1,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 75589.5,
+				"startTimeMs": 1855416,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -2247,7 +2247,7 @@
 				"fuelPerLap": 2.4500000476837158,
 				"fuelPerMinute": 1.6386133432388306,
 				"lapTime": 89710,
-				"rainPitRandomizer": 0.019251685589551926,
+				"rainPitRandomizer": -0.0148814357817173,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -2280,16 +2280,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 0,
-				"newDriverNameToDisplay": "Alex Riberas",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Christopher Mies",
 				"driversNames": [
 					"Alex Riberas",
 					"Christopher Mies"
 				],
-				"driversStintTotalTimeLeft": [ 2153, 2700 ],
-				"hasDriversDoneAStint": [ true, false ],
-				"currentDriverIndex": 0,
+				"driversStintTotalTimeLeft": [ 2700, 2153 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -2312,10 +2312,10 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 13.851302146911621,
-				"totalFuelUsedInSession": 3.9505777359008789,
-				"fuelPerSingleLap": 1.9752888679504395,
-				"fuelPerKm": 0.49891325831413269,
+				"startingFuelOnLastLap": 25.825817108154297,
+				"totalFuelUsedInSession": 3.9320945739746094,
+				"fuelPerSingleLap": 1.9660472869873047,
+				"fuelPerKm": 0.49657905101776123,
 				"fuelLapCount": 2
 			},
 			"tyreSets": [],
@@ -2327,8 +2327,8 @@
 			"lastSplitNpos": 0.35999998450279236,
 			"lapCount": 5,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 1866,
-			"averageRelativeSpeed": 0.91822701692581177,
+			"filteredTimeAhead": 42664,
+			"averageRelativeSpeed": 0.92191410064697266,
 			"carSetup":
 			{
 				"carName": "audi_r8_lms",
@@ -2407,13 +2407,13 @@
 		},
 		{
 			"carId": 9,
-			"driverIndex": 1,
+			"driverIndex": 0,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 103259.5,
+				"startTimeMs": 1780524,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -2497,7 +2497,7 @@
 				"fuelPerLap": 2.4500000476837158,
 				"fuelPerMinute": 1.6386133432388306,
 				"lapTime": 89710,
-				"rainPitRandomizer": 0.015875119715929031,
+				"rainPitRandomizer": 0.019011199474334717,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -2530,16 +2530,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 1,
-				"newDriverNameToDisplay": "Nyls Stievenart",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Markus Winkelhock",
 				"driversNames": [
 					"Markus Winkelhock",
 					"Nyls Stievenart"
 				],
-				"driversStintTotalTimeLeft": [ 2700, 2190 ],
-				"hasDriversDoneAStint": [ false, true ],
-				"currentDriverIndex": 1,
+				"driversStintTotalTimeLeft": [ 2083, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -2562,11 +2562,11 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 13.884393692016602,
-				"totalFuelUsedInSession": 3.9143161773681641,
-				"fuelPerSingleLap": 1.957158088684082,
-				"fuelPerKm": 0.49433383345603943,
-				"fuelLapCount": 2
+				"startingFuelOnLastLap": 23.848268508911133,
+				"totalFuelUsedInSession": 5.9218063354492188,
+				"fuelPerSingleLap": 1.9739354848861694,
+				"fuelPerKm": 0.49857142567634583,
+				"fuelLapCount": 3
 			},
 			"tyreSets": [],
 			"startingTyreSets": [],
@@ -2575,10 +2575,10 @@
 			"currentFrontBrakeCompound": 1,
 			"currentRearBrakeCompound": 1,
 			"lastSplitNpos": 0,
-			"lapCount": 5,
+			"lapCount": 6,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 507,
-			"averageRelativeSpeed": 0.85624253749847412,
+			"filteredTimeAhead": 518,
+			"averageRelativeSpeed": 0.93878453969955444,
 			"carSetup":
 			{
 				"carName": "audi_r8_lms",
@@ -2657,13 +2657,13 @@
 		},
 		{
 			"carId": 10,
-			"driverIndex": 0,
+			"driverIndex": 1,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 31861.5,
+				"startTimeMs": 1827591,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -2747,7 +2747,7 @@
 				"fuelPerLap": 2.4500000476837158,
 				"fuelPerMinute": 1.6386133432388306,
 				"lapTime": 89710,
-				"rainPitRandomizer": 0.017277751117944717,
+				"rainPitRandomizer": -0.0034992508590221405,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -2780,16 +2780,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 0,
-				"newDriverNameToDisplay": "Simon Gachet",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Christopher Haase",
 				"driversNames": [
 					"Simon Gachet",
 					"Christopher Haase"
 				],
-				"driversStintTotalTimeLeft": [ 2114, 2700 ],
-				"hasDriversDoneAStint": [ true, false ],
-				"currentDriverIndex": 0,
+				"driversStintTotalTimeLeft": [ 2700, 2129 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -2812,10 +2812,10 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 13.891019821166992,
-				"totalFuelUsedInSession": 3.9111595153808594,
-				"fuelPerSingleLap": 1.9555797576904297,
-				"fuelPerKm": 0.49393516778945923,
+				"startingFuelOnLastLap": 25.856555938720703,
+				"totalFuelUsedInSession": 3.9305133819580078,
+				"fuelPerSingleLap": 1.9652566909790039,
+				"fuelPerKm": 0.49637934565544128,
 				"fuelLapCount": 2
 			},
 			"tyreSets": [],
@@ -2824,11 +2824,11 @@
 			"currentTyreCompound": 0,
 			"currentFrontBrakeCompound": 1,
 			"currentRearBrakeCompound": 1,
-			"lastSplitNpos": 0.68000000715255737,
+			"lastSplitNpos": 0.35999998450279236,
 			"lapCount": 5,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 11243,
-			"averageRelativeSpeed": 0.82027524709701538,
+			"filteredTimeAhead": 776,
+			"averageRelativeSpeed": 0.76455622911453247,
 			"carSetup":
 			{
 				"carName": "audi_r8_lms",
@@ -2907,13 +2907,13 @@
 		},
 		{
 			"carId": 11,
-			"driverIndex": 0,
+			"driverIndex": 1,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 58929.5,
+				"startTimeMs": 1803336,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -2997,7 +2997,7 @@
 				"fuelPerLap": 2.4500000476837158,
 				"fuelPerMinute": 1.6386133432388306,
 				"lapTime": 89710,
-				"rainPitRandomizer": 0.0074861906468868256,
+				"rainPitRandomizer": 0.01075289212167263,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -3030,16 +3030,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 0,
-				"newDriverNameToDisplay": "Stuart Leonard",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Robin Frijns",
 				"driversNames": [
 					"Stuart Leonard",
 					"Robin Frijns"
 				],
-				"driversStintTotalTimeLeft": [ 2137, 2700 ],
-				"hasDriversDoneAStint": [ true, false ],
-				"currentDriverIndex": 0,
+				"driversStintTotalTimeLeft": [ 2700, 2101 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -3062,10 +3062,10 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 13.882675170898438,
-				"totalFuelUsedInSession": 3.9285087585449219,
-				"fuelPerSingleLap": 1.9642543792724609,
-				"fuelPerKm": 0.4961262047290802,
+				"startingFuelOnLastLap": 25.88250732421875,
+				"totalFuelUsedInSession": 3.9212131500244141,
+				"fuelPerSingleLap": 1.960606575012207,
+				"fuelPerKm": 0.49520483613014221,
 				"fuelLapCount": 2
 			},
 			"tyreSets": [],
@@ -3074,11 +3074,11 @@
 			"currentTyreCompound": 0,
 			"currentFrontBrakeCompound": 1,
 			"currentRearBrakeCompound": 1,
-			"lastSplitNpos": 0.35999998450279236,
+			"lastSplitNpos": 0.68000000715255737,
 			"lapCount": 5,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 9536,
-			"averageRelativeSpeed": 0.87632274627685547,
+			"filteredTimeAhead": 20911,
+			"averageRelativeSpeed": 0.90934133529663086,
 			"carSetup":
 			{
 				"carName": "audi_r8_lms",
@@ -3157,13 +3157,13 @@
 		},
 		{
 			"carId": 3,
-			"driverIndex": 1,
+			"driverIndex": 0,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 71456.5,
+				"startTimeMs": 1781319,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -3247,7 +3247,7 @@
 				"fuelPerLap": 2.5099999904632568,
 				"fuelPerMinute": 1.678742527961731,
 				"lapTime": 89710,
-				"rainPitRandomizer": -0.0070357369258999825,
+				"rainPitRandomizer": -0.018666950985789299,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -3280,16 +3280,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 1,
-				"newDriverNameToDisplay": "Christian Engelhart",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Mirko Bortolotti",
 				"driversNames": [
 					"Mirko Bortolotti",
 					"Christian Engelhart"
 				],
-				"driversStintTotalTimeLeft": [ 2700, 2154 ],
-				"hasDriversDoneAStint": [ false, true ],
-				"currentDriverIndex": 1,
+				"driversStintTotalTimeLeft": [ 2084, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -3312,11 +3312,11 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 14.42747974395752,
-				"totalFuelUsedInSession": 3.991612434387207,
-				"fuelPerSingleLap": 1.9958062171936035,
-				"fuelPerKm": 0.50409549474716187,
-				"fuelLapCount": 2
+				"startingFuelOnLastLap": 24.522867202758789,
+				"totalFuelUsedInSession": 5.9702682495117188,
+				"fuelPerSingleLap": 1.9900894165039063,
+				"fuelPerKm": 0.50265151262283325,
+				"fuelLapCount": 3
 			},
 			"tyreSets": [],
 			"startingTyreSets": [],
@@ -3324,11 +3324,11 @@
 			"currentTyreCompound": 0,
 			"currentFrontBrakeCompound": 1,
 			"currentRearBrakeCompound": 1,
-			"lastSplitNpos": 0.35999998450279236,
-			"lapCount": 5,
+			"lastSplitNpos": 0,
+			"lapCount": 6,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 35352,
-			"averageRelativeSpeed": 0.89841330051422119,
+			"filteredTimeAhead": 1160,
+			"averageRelativeSpeed": 0.96148210763931274,
 			"carSetup":
 			{
 				"carName": "lamborghini_huracan_gt3",
@@ -3407,13 +3407,13 @@
 		},
 		{
 			"carId": 6,
-			"driverIndex": 1,
+			"driverIndex": 0,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 20905.5,
+				"startTimeMs": 1840771,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -3497,7 +3497,7 @@
 				"fuelPerLap": 2.5099999904632568,
 				"fuelPerMinute": 1.678742527961731,
 				"lapTime": 89710,
-				"rainPitRandomizer": 0.014439526945352554,
+				"rainPitRandomizer": -0.018669392913579941,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -3530,16 +3530,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 1,
-				"newDriverNameToDisplay": "Loris Hezemans",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Franck Perera",
 				"driversNames": [
 					"Franck Perera",
 					"Loris Hezemans"
 				],
-				"driversStintTotalTimeLeft": [ 2700, 2104 ],
-				"hasDriversDoneAStint": [ false, true ],
-				"currentDriverIndex": 1,
+				"driversStintTotalTimeLeft": [ 2143, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -3562,10 +3562,10 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 14.271092414855957,
-				"totalFuelUsedInSession": 3.998051643371582,
-				"fuelPerSingleLap": 1.999025821685791,
-				"fuelPerKm": 0.50490868091583252,
+				"startingFuelOnLastLap": 28.634220123291016,
+				"totalFuelUsedInSession": 4.0058059692382813,
+				"fuelPerSingleLap": 2.0029029846191406,
+				"fuelPerKm": 0.50588798522949219,
 				"fuelLapCount": 2
 			},
 			"tyreSets": [],
@@ -3574,11 +3574,11 @@
 			"currentTyreCompound": 0,
 			"currentFrontBrakeCompound": 1,
 			"currentRearBrakeCompound": 1,
-			"lastSplitNpos": 0.68000000715255737,
+			"lastSplitNpos": 0.35999998450279236,
 			"lapCount": 5,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 12918,
-			"averageRelativeSpeed": 0.91487878561019897,
+			"filteredTimeAhead": 9879,
+			"averageRelativeSpeed": 0.88373202085494995,
 			"carSetup":
 			{
 				"carName": "lamborghini_huracan_gt3",
@@ -3657,13 +3657,13 @@
 		},
 		{
 			"carId": 8,
-			"driverIndex": 0,
+			"driverIndex": 1,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 103080.5,
+				"startTimeMs": 1783000,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -3747,7 +3747,7 @@
 				"fuelPerLap": 2.5099999904632568,
 				"fuelPerMinute": 1.678742527961731,
 				"lapTime": 89710,
-				"rainPitRandomizer": 0.012881863862276077,
+				"rainPitRandomizer": 0.007779167965054512,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -3780,16 +3780,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 0,
-				"newDriverNameToDisplay": "Ezequiel Companc",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Andrea Caldarelli",
 				"driversNames": [
 					"Ezequiel Companc",
 					"Andrea Caldarelli"
 				],
-				"driversStintTotalTimeLeft": [ 2191, 2700 ],
-				"hasDriversDoneAStint": [ true, false ],
-				"currentDriverIndex": 0,
+				"driversStintTotalTimeLeft": [ 2700, 2086 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -3812,10 +3812,10 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 14.239356994628906,
-				"totalFuelUsedInSession": 4.0028705596923828,
-				"fuelPerSingleLap": 2.0014352798461914,
-				"fuelPerKm": 0.50551724433898926,
+				"startingFuelOnLastLap": 28.622735977172852,
+				"totalFuelUsedInSession": 3.9507045745849609,
+				"fuelPerSingleLap": 1.9753522872924805,
+				"fuelPerKm": 0.49892926216125488,
 				"fuelLapCount": 2
 			},
 			"tyreSets": [],
@@ -3824,11 +3824,11 @@
 			"currentTyreCompound": 0,
 			"currentFrontBrakeCompound": 1,
 			"currentRearBrakeCompound": 1,
-			"lastSplitNpos": 0,
+			"lastSplitNpos": 0.68000000715255737,
 			"lapCount": 5,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 4161,
-			"averageRelativeSpeed": 0.87784069776535034,
+			"filteredTimeAhead": 5705,
+			"averageRelativeSpeed": 0.96209818124771118,
 			"carSetup":
 			{
 				"carName": "lamborghini_huracan_gt3",
@@ -3907,13 +3907,13 @@
 		},
 		{
 			"carId": 14,
-			"driverIndex": 0,
+			"driverIndex": 1,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 33306.5,
+				"startTimeMs": 1824151,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -3997,7 +3997,7 @@
 				"fuelPerLap": 2.6600000858306885,
 				"fuelPerMinute": 1.7790659666061401,
 				"lapTime": 89710,
-				"rainPitRandomizer": 0.019166234880685806,
+				"rainPitRandomizer": 0.019240699708461761,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -4030,16 +4030,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 0,
-				"newDriverNameToDisplay": "Ian Loggie",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 1,
+				"newDriverNameToDisplay": "Callum Macleod",
 				"driversNames": [
 					"Ian Loggie",
 					"Callum Macleod"
 				],
-				"driversStintTotalTimeLeft": [ 2117, 2700 ],
-				"hasDriversDoneAStint": [ true, false ],
-				"currentDriverIndex": 0,
+				"driversStintTotalTimeLeft": [ 2700, 2127 ],
+				"hasDriversDoneAStint": [ false, true ],
+				"currentDriverIndex": 1,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -4062,10 +4062,10 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 15.609354972839355,
-				"totalFuelUsedInSession": 4.0489492416381836,
-				"fuelPerSingleLap": 2.0244746208190918,
-				"fuelPerKm": 0.51133644580841064,
+				"startingFuelOnLastLap": 29.145240783691406,
+				"totalFuelUsedInSession": 4.0771217346191406,
+				"fuelPerSingleLap": 2.0385608673095703,
+				"fuelPerKm": 0.51489430665969849,
 				"fuelLapCount": 2
 			},
 			"tyreSets": [],
@@ -4077,8 +4077,8 @@
 			"lastSplitNpos": 0.35999998450279236,
 			"lapCount": 5,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 11143,
-			"averageRelativeSpeed": 0.85190165042877197,
+			"filteredTimeAhead": 1648,
+			"averageRelativeSpeed": 0.85072165727615356,
 			"carSetup":
 			{
 				"carName": "bentley_continental_gt3_2016",
@@ -4157,13 +4157,13 @@
 		},
 		{
 			"carId": 15,
-			"driverIndex": 1,
+			"driverIndex": 0,
 			"oldPhysicsTimeMs": 0,
 			"strategy":
 			{
 				"pitstopReason": "None",
 				"isStartTimeSet": true,
-				"startTimeMs": 77109.5,
+				"startTimeMs": 1791414,
 				"pitEntryPitlaneSessionTimeMs": 0,
 				"pitExitPitlaneSessionTime": 0,
 				"fastPosition": 0,
@@ -4247,7 +4247,7 @@
 				"fuelPerLap": 3,
 				"fuelPerMinute": 2.0064651966094971,
 				"lapTime": 89710,
-				"rainPitRandomizer": -0.0073787644505500793,
+				"rainPitRandomizer": -0.0057332068681716919,
 				"pitStopCounter": 0,
 				"driverTotalTimes": [ 0, 0 ]
 			},
@@ -4280,16 +4280,16 @@
 					"x": 20.30000114440918,
 					"y": 35
 				},
-				"driverSwapAllowed": true,
-				"newDriverIndexForSwap": 1,
-				"newDriverNameToDisplay": "Pierre Feligioni",
+				"driverSwapAllowed": false,
+				"newDriverIndexForSwap": 0,
+				"newDriverNameToDisplay": "Claude-Yves Gosselin",
 				"driversNames": [
 					"Claude-Yves Gosselin",
 					"Pierre Feligioni"
 				],
-				"driversStintTotalTimeLeft": [ 2700, 2170 ],
-				"hasDriversDoneAStint": [ false, true ],
-				"currentDriverIndex": 1,
+				"driversStintTotalTimeLeft": [ 2095, 2700 ],
+				"hasDriversDoneAStint": [ true, false ],
+				"currentDriverIndex": 0,
 				"repairBody": true,
 				"repairSuspension": true,
 				"repairEngine": false,
@@ -4312,10 +4312,10 @@
 			},
 			"fuel":
 			{
-				"startingFuelOnLastLap": 18.886375427246094,
-				"totalFuelUsedInSession": 4.0417213439941406,
-				"fuelPerSingleLap": 2.0208606719970703,
-				"fuelPerKm": 0.51042366027832031,
+				"startingFuelOnLastLap": 37.773284912109375,
+				"totalFuelUsedInSession": 4.0562934875488281,
+				"fuelPerSingleLap": 2.0281467437744141,
+				"fuelPerKm": 0.5122639536857605,
 				"fuelLapCount": 2
 			},
 			"tyreSets": [],
@@ -4324,11 +4324,11 @@
 			"currentTyreCompound": 0,
 			"currentFrontBrakeCompound": 1,
 			"currentRearBrakeCompound": 1,
-			"lastSplitNpos": 0,
+			"lastSplitNpos": 0.68000000715255737,
 			"lapCount": 5,
 			"hotlapFirstLapArmed": false,
-			"filteredTimeAhead": 1681,
-			"averageRelativeSpeed": 0.82877826690673828,
+			"filteredTimeAhead": 1324,
+			"averageRelativeSpeed": 0.85273230075836182,
 			"carSetup":
 			{
 				"carName": "lamborghini_gallardo_rex",
