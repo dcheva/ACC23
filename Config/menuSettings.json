@@ -3300,7 +3300,7 @@
 	"lastSeasonFilter": "Free",
 	"mPShowroomCarGroup": "FREE_FOR_ALL",
 	"mPShowroomCarGroupFilter": "GT3",
-	"mPServerListCarGroupFilter": "ANY",
+	"mPServerListCarGroupFilter": "GT3",
 	"mpServerListFilter":
 	{
 		"sortMode": 1,
