@@ -2513,7 +2513,7 @@
 			{
 				"Practice":
 				{
-					"carName": "0-231011-144326.json",
+					"carName": "0-231126-185134.json",
 					"driverName": "driver1.json",
 					"opponentCount": 24,
 					"carGroups":
@@ -2526,7 +2526,7 @@
 					"raceLength": -1,
 					"positionOnGrid": 1,
 					"timeMultiplier": 1,
-					"trackName": "nurburgring",
+					"trackName": "zolder",
 					"skillMultiplier": 85,
 					"aggroMultiplier": 85,
 					"p1_TimeOfDay": 14,
@@ -3118,7 +3118,7 @@
 	"globalSeasonTrackName":
 	{
 		"BP_2019": "zandvoort",
-		"Free": "nurburgring"
+		"Free": "zolder"
 	},
 	"globalOpponentCount": 24,
 	"globalOpponentSkill": 85,
@@ -3132,18 +3132,18 @@
 	"bUseEnduranceKit": true,
 	"audio":
 	{
-		"main": 0.5,
-		"engineExt": 0.5,
-		"engineInt": 0.5,
+		"main": 1,
+		"engineExt": 0.25,
+		"engineInt": 0.25,
 		"wheel": 1,
-		"wind": 1,
-		"environment": 1,
+		"wind": 0.75,
+		"environment": 0.75,
 		"damage": 1,
 		"comms": 1,
 		"startingComms": 1,
 		"spotter": true,
 		"music": 0.5,
-		"opponent": 0.75,
+		"opponent": 0.5,
 		"gui": 1,
 		"video": 0.5,
 		"bodywork": 1,

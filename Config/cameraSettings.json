@@ -1,6 +1,6 @@
 {
 	"version": 3,
-	"lastUsedCamIndex": 3,
+	"lastUsedCamIndex": 6,
 	"lastUsedOnboardIndex": 0,
 	"generalMovement": 1,
 	"onboardMovement": 1,
@@ -12,7 +12,7 @@
 	"helicamTargetCarsMaxDist": 2000,
 	"helicamTargetInterpTime": 1,
 	"helicamDebug": 0,
-	"cameraFOV": [ 54, 54, 54, 31, 54, 54, 54 ],
+	"cameraFOV": [ 54, 54, 54, 30, 54, 54, 30 ],
 	"mapCarCameraData":
 	{
 		"mclaren_720s_gt3_evo":
@@ -38,7 +38,7 @@
 					"z": 0
 				},
 				{
-					"x": -0.30000013113021851,
+					"x": -30.000078201293945,
 					"y": -1.9371509552001953e-07,
 					"z": 30.000076293945313
 				},
@@ -53,12 +53,12 @@
 					"z": 0
 				},
 				{
-					"x": 0,
+					"x": -1.3411045074462891e-07,
 					"y": 0,
-					"z": 0
+					"z": 7.4505805969238281e-08
 				}
 			],
-			"pitches": [ 0, 0, 0, -0.099999986588954926, 0, 0, 0 ]
+			"pitches": [ 0, 0, 0, -0.099999986588954926, 0, 0, -0.09999992698431015 ]
 		},
 		"lamborghini_huracan_st":
 		{
@@ -165,7 +165,7 @@
 	"hDRContrast": 0.69999998807907104,
 	"mirrorFOV": 90,
 	"useGamepadForFreeCamera": 0,
-	"virtualMirrorSize": 0.15000000596046448,
+	"virtualMirrorSize": 0.14999999105930328,
 	"virtualMirrorVerticalOffset": 0,
 	"virtualMirrorHorizontalOffset": 0,
 	"tVCamFocusedAperture": 2.7999999523162842,
