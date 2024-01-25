@@ -477,7 +477,29 @@
 				}
 			},
 			{
-				"actionType": "SetMfdStandings",
+				"actionType": "None",
+				"key":
+				{
+					"key": "None",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "None",
+				"key":
+				{
+					"key": "None",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "None",
 				"key":
 				{
 					"key": "None",
@@ -491,6 +513,17 @@
 				"actionType": "Starter",
 				"key":
 				{
+					"key": "None",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "SetMfdStandings",
+				"key":
+				{
 					"key": "I",
 					"bShift": false,
 					"bCtrl": false,
@@ -499,7 +532,7 @@
 				}
 			},
 			{
-				"actionType": "LookLeft",
+				"actionType": "None",
 				"key":
 				{
 					"key": "None",
@@ -510,7 +543,51 @@
 				}
 			},
 			{
-				"actionType": "LookRight",
+				"actionType": "None",
+				"key":
+				{
+					"key": "None",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "None",
+				"key":
+				{
+					"key": "None",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "None",
+				"key":
+				{
+					"key": "None",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "None",
+				"key":
+				{
+					"key": "None",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "None",
 				"key":
 				{
 					"key": "None",
@@ -525,6 +602,50 @@
 				"key":
 				{
 					"key": "None",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "None",
+				"key":
+				{
+					"key": "Decimal",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "None",
+				"key":
+				{
+					"key": "None",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "LookLeft",
+				"key":
+				{
+					"key": "NumPadZero",
+					"bShift": false,
+					"bCtrl": false,
+					"bAlt": false,
+					"bCmd": false
+				}
+			},
+			{
+				"actionType": "LookRight",
+				"key":
+				{
+					"key": "Decimal",
 					"bShift": false,
 					"bCtrl": false,
 					"bAlt": false,
